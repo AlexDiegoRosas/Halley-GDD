@@ -1,0 +1,56 @@
+\begin{titlepage}
+
+	\centering
+
+	\begin{tikzpicture}
+
+		\node[opacity=0.1,inner sep=0pt,remember picture,overlay] at (4.5,-0.5){\includegraphics[width= 0.5 \textwidth]{Figures/0. General/gray_senati.png}};
+
+		\node[inner sep=0pt] (logo) at (0,0)
+		{\includegraphics[width=.20\textwidth]{Figures/0. General/halley.jpeg}};
+
+		\node[text width = 0.5\textwidth, right = of logo](title){\sffamily\huge\reporttitle};
+
+		\node[text width = 0.5\textwidth, yshift = 0.75cm, below = of title](subtitle){\sffamily\Large \reportsubtitle};
+
+		\gettikzxy{(subtitle.south)}{\sffamily\subtitlex}{\subtitley}
+		\gettikzxy{(title.north)}{\titlex}{\titley}
+		\draw[line width=1mm, Tue-red]($(logo.east)!0.5!(title.west)$) +(0,\subtitley) -- +(0,\titley);
+
+	\end{tikzpicture}
+	\vspace{3cm}
+
+	\sffamily\groupnumber
+
+	\begin{table}[H]
+		\centering
+		\sffamily
+		\large
+		\begin{tabu} to 0.8\linewidth {cc}
+			\textbf{Nombre Completo} & \textbf{ID Estudiante} \\
+			\hline
+
+			\sffamily\reportauthors
+		\end{tabu}
+
+	\end{table}
+
+	\sffamily \grouptutor
+
+	\tikz[remember picture,overlay]\node[anchor=south,inner sep=0pt] at (current page.south) {\includegraphics[width=\paperwidth]{Figures/0. General/senati_footer.png}};
+
+	\mbox{}
+	\vfill
+	\sffamily \Large \textcolor{white}{\placeanddate} \\
+
+
+
+\end{titlepage}
+
+
+
+
+
+
+
+
