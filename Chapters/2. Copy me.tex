@@ -1,28 +1,29 @@
 \section{Interfaz}
 \begin{itemize}
-	\item Sistema visual
-	      \begin{figure}[htb]
-		      \centering
-		      \includegraphics[width=0.95\textwidth]{Figures/0. General/sistema_visual.png}
-		      \caption{Modelo a usar 9:16 vertical $1080 \times 1920$}
-		      \label{fig:vista}
-	      \end{figure}
-	\item HUD - controles: Panel táctil (Android)
-	      \begin{figure}[h!]
-		      \centering
-		      \begin{subfigure}[b]{0.35\linewidth}
-			      \includegraphics[width=\linewidth]{Figures/0. General/phone.png}
-			      \caption{Referencia de tactil}
-			      \label{fig:westminster_lateral}
-		      \end{subfigure}
-		      \begin{subfigure}[b]{0.45\linewidth}
-			      \includegraphics[width=\linewidth]{Figures/0. General/phone_2.png}
-			      \caption{Referencia de interfaz}
-			      \label{fig:westminster_aerea}
-		      \end{subfigure}
-		      \caption{Mecanica de movimientos}
-		      \label{fig:westminster}
-	      \end{figure}
+	\item
+%	\item Sistema visual
+%	      \begin{figure}[htb]
+%		      \centering
+%		      \includegraphics[width=0.95\textwidth]{Figures/0. General/sistema_visual.png}
+%		      \caption{Modelo a usar 9:16 vertical $1080 \times 1920$}
+%		      \label{fig:vista}
+%	      \end{figure}
+%	\item HUD - controles: Panel táctil (Android)
+%	      \begin{figure}[h!]
+%		      \centering
+%		      \begin{subfigure}[b]{0.35\linewidth}
+%			      \includegraphics[width=\linewidth]{Figures/0. General/phone.png}
+%			      \caption{Referencia de tactil}
+%			      \label{fig:westminster_lateral}
+%		      \end{subfigure}
+%		      \begin{subfigure}[b]{0.45\linewidth}
+%			      \includegraphics[width=\linewidth]{Figures/0. General/phone_2.png}
+%			      \caption{Referencia de interfaz}
+%			      \label{fig:westminster_aerea}
+%		      \end{subfigure}
+%		      \caption{Mecanica de movimientos}
+%		      \label{fig:westminster}
+%	      \end{figure}
 	      \begin{itemize}
 		      \item Menús: Sistema de inicio de juego (Iniciar/ Opiones/ Salir)
 		      \item Sistema de Rendering: Pausa (Opiones/ Volumen/ Menú)
@@ -44,15 +45,16 @@
 
 \section{Elementos técnicos}
 \subsection{Hardware objetivo}
-Run or Wake tiene como objetivo a un público que disponga de un celular Android. Para una mejor
+Run or Wake tiene como objetivo a un público que disponga de un 
+PC.
 experiencia de juego recomendamos las siguientes características:
 \begin{itemize}
-	\item Procesador: Se requiere un procesador de gama baja exynos 7884, octa core a 1.6GHz
+	\item Procesador: Se requiere un procesador de gama baja core i3 a 1.6GHz
 	\item Memoria RAM: Se recomienda una memoria de 2GB de RAM, ya que es importante para almacenar
 	      los datos y procesos que están en funcionamiento.
-	\item Almacenamiento: El almacenamiento se recomienda 25GB, ya que se va a almacenar los datos
+	\item Almacenamiento: El almacenamiento se recomienda 1GB, ya que se va a almacenar los datos
 	      del juego y el proceso en forma local.
-	\item Conectividad: Asegurarse de tener una conexión necesaria de internet para ingresar al juego.
+	\item Conectividad: Asegurarse de tener una conexión necesaria de Internet para ingresar al juego.
 \end{itemize}
 
 \subsection{ Procedimientos de desarrollo y estándares}
@@ -61,11 +63,11 @@ definidos por fechas.
 
 \subsection{Game engine}
 El motor de desarrollo como base es Unity ya que a diferencia de Unreal Engine no tiene tanto
-peso al momento de desarrollar, siendo que el jeugo no necesita de una gráfica ultra realistas,
+peso al momento de desarrollar, siendo que el juego no necesita de una gráfica ultra realistas,
 y más que nuestro juego es estilo LowPoly.
 
 \subsection{Network}
-Si requiere conexión a internet para la descarga del mismo como para ingresar a un registro mediante
+Si requiere conexión a Internet para la descarga del mismo como para ingresar a un registro mediante
 un login, pero el juego es sin conexión.
 \subsection{Lenguaje de scripting}
 El Lenguaje de programación que se usará para desarrollar el proyecto es C\#.
@@ -79,7 +81,7 @@ Esto será tratado de forma breve, siendo más detallado en la biblia de arte.
 	\item Guías de estilo: Utilizamos el estilo LowPoly que se aplica al escenario y objetos del juego
 	\item Diseño de personajes: Nos enfocamos en la simplicidad pero con caracter de colores vivos.
 	\item Escenarios: Contamos con paisajes naturales y de urbe, es decir una ciudad y un bosque, todo esto
-	      manteniendo la estetica LowPoly.
+	      manteniendo la estética LowPoly.
 \end{itemize}
 
 \section{Software secundario}
@@ -180,7 +182,7 @@ Esto será tratado de forma breve, siendo más detallado en la biblia de arte.
 
 \textbf{5. Gastos generales:}
 \begin{itemize}
-	\item Espacio de trabajo, electricidad, internet, etc. Por ejemplo, \$1,000.
+	\item Espacio de trabajo, electricidad, Internet, etc. Por ejemplo, \$1,000.
 \end{itemize}
 
 \textbf{6. Contingencia:}
@@ -273,7 +275,7 @@ Para finalizar, una vez que el juego ha sido adaptado y probado, está listo par
 \subsection{Plan de test}
 
 \subsection{Objetivo}
-Nuestro objetivo principal es el correcto funcionamiento de nuestro juego con el fin de entretener a nuestro público general y recibir opiniones positivas en la plataforma donde se va a descargar o subir (Play Store, etc.).
+Nuestro objetivo principal es el correcto funcionamiento de nuestro juego con el fin de entretener a nuestro público general y recibir opiniones positivas en la plataforma donde se va a descargar o subir.
 
 \subsection{Estrategia de Prueba}
 Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se realizarán pruebas de rendimiento y carga para evaluar el rendimiento del juego.
@@ -281,19 +283,19 @@ Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se 
 \subsection{Requisitos de Prueba}
 \begin{itemize}
 	\item El juego será probado en una variedad de dispositivos móviles de diferentes gamas, capacidades y estructuras.
-	\item El juego debe ejecutarse sin problemas en dispositivos Android.
+	\item El juego debe ejecutarse sin problemas en PC.
 	\item Se deben realizar pruebas de rendimiento.
 \end{itemize}
 
 \subsection{Casos de Prueba}
 \begin{enumerate}
-	\item \textbf{Prueba 1: Inicio y cierre del juego en dispositivos Android}
+	\item \textbf{Prueba 1: Inicio y cierre del juego en PC}
 
-	      \textbf{Escenario:} El jugador inicia y cierra en un dispositivo móvil.
+	      \textbf{Escenario:} El jugador inicia y cierra en un PC.
 
 	      \textbf{Pasos:}
 	      \begin{enumerate}
-		      \item Inicie el juego en un dispositivo móvil.
+		      \item Inicie el juego en un PC.
 		      \item Cierre el juego.
 	      \end{enumerate}
 
@@ -301,7 +303,7 @@ Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se 
 
 	\item \textbf{Prueba 2: Uso del menú principal en dispositivos de escritorio}
 
-	      \textbf{Escenario:} El jugador navega por el menú principal del juego en un dispositivo móvil.
+	      \textbf{Escenario:} El jugador navega por el menú principal del juego en un PC.
 
 	      \textbf{Pasos:}
 	      \begin{enumerate}
@@ -313,11 +315,11 @@ Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se 
 
 	\item \textbf{Prueba 3: Uso del menú de opciones en dispositivos de escritorio}
 
-	      \textbf{Escenario:} El jugador navega por el menú de opciones del juego en un dispositivo móvil.
+	      \textbf{Escenario:} El jugador navega por el menú de opciones del juego en un PC.
 
 	      \textbf{Pasos:}
 	      \begin{enumerate}
-		      \item Inicie el juego en un dispositivo móvil.
+		      \item Inicie el juego en un PC.
 		      \item Navegue por el menú principal del juego.
 		      \item Navegue por el menú de opciones del juego.
 	      \end{enumerate}
@@ -326,11 +328,11 @@ Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se 
 
 	\item \textbf{Prueba 4: Uso del menú de perfil en dispositivos de escritorio}
 
-	      \textbf{Escenario:} El jugador navega por el menú de perfil del juego en un dispositivo móvil.
+	      \textbf{Escenario:} El jugador navega por el menú de perfil del juego en un PC.
 
 	      \textbf{Pasos:}
 	      \begin{enumerate}
-		      \item Inicie el juego en un dispositivo móvil.
+		      \item Inicie el juego en un PC.
 		      \item Navegue por el menú principal del juego.
 		      \item Navegue por el menú de perfil del juego.
 	      \end{enumerate}
@@ -339,11 +341,11 @@ Se llevarán a cabo pruebas de caja blanca y pruebas de caja negra. También se 
 
 	\item \textbf{Prueba 5: Uso del juego en dispositivos de escritorio}
 
-	      \textbf{Escenario:} El jugador navega por el menú principal, accede al juego y procede a jugar en un dispositivo móvil.
+	      \textbf{Escenario:} El jugador navega por el menú principal, accede al juego y procede a jugar en un PC.
 
 	      \textbf{Pasos:}
 	      \begin{enumerate}
-		      \item Inicie el juego en un dispositivo móvil.
+		      \item Inicie el juego en un PC.
 		      \item Navegue por el menú principal del juego.
 		      \item Presione "Jugar".
 	      \end{enumerate}
